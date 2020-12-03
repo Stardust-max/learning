@@ -1199,7 +1199,7 @@ int main(void){
 
   * 使用格式：struct name var1; // 把var1声明为一个book类型的变量6
 
-    ```c
+```c
 /* book.c -- 一本书的图书目录 */
 #include <stdio.h>
 #include <string.g>
@@ -1212,5 +1212,6 @@ struct book{
     char author[MAXAUTL];
     float value;
 };
-    ```
+```
+
 
