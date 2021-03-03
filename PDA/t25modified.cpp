@@ -12,7 +12,7 @@ int main(void){
 		if(m >= M){
             n += M/n;
             m = 0;
-            cout << n << endl;
+            //cout << n << endl;
         }
 	}
 	cout << n << endl;

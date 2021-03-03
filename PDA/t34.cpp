@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    int m, n;
+    cin >> m >> n;
+    int A[m][n];
+    int i, j;
+    for(i=0; i<m; i++)for(j=0; j<n; j++) cin >> A[j][i];
+    for(i=0; i<m; i++){
+	for(j=0; j<n; j++) cout << A[i][j] << " ";
+	cout << endl;
+    }
+    return 0; 
+}
