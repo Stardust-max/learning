@@ -17,8 +17,8 @@ int main(){
         //cout << "arr[i]:"<<temp<<endl;
         if(temp<=1) cout << pell[i]<<endl;
 	else{
-	    for(int j=2; j<=temp; j++) pell[j]=2*pell[j-1]+pell[j-2];
-	    cout << pell[temp] % 32767 << endl;
+	    for(int j=2; j<=temp; j++) pell[j]=(2*pell[j-1]+pell[j-2]) % 32767;
+	    cout << pell[temp] << endl;
 	}
     }
     return 0;
