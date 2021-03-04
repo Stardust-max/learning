@@ -7,16 +7,17 @@ char s[100001]={0};
 int main(){
     int i,j;
     int letters[26]={0};
+    int len = strlen(s);
     fgets(s, 100001, stdin);
-    for(i=0; i<strlen(s); i++)
+    for(i=0; i<len; i++)
         letters[s[i]-'a']++;
-    for(j=0; j<strlen(s); j++)
+    for(j=0; j<len; j++)
 	if(letters[s[j]-'a'] == 1) {
 		cout << s[j];
 		return 0;
 	}
 	    
-    cout << "no";
+    cout << "no"<<endl;
     return 0;
 }
 /*=============================================================
