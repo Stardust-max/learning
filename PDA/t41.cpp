@@ -7,8 +7,8 @@ char s[100001]={0};
 int main(){
     int i,j;
     int letters[26]={0};
-    int len = strlen(s);
     fgets(s, 100001, stdin);
+    int len=strlen(s);
     for(i=0; i<len; i++)
         letters[s[i]-'a']++;
     for(j=0; j<len; j++)
