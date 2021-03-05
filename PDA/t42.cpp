@@ -25,7 +25,7 @@ int main(){
 	else if(temp1=='S' && temp2=='P') out[i]="Player1";
 	else if(temp1=='S' && temp2=='R') out[i]="Player2";
 	else if(temp1=='P' && temp2=='R') out[i]="Player1";
-	else if(temp1=='R' && temp2=='S') out[i]="Player2";
+	else if(temp1=='P' && temp2=='S') out[i]="Player2";
 	else out[i]="Tie";
 
     }
