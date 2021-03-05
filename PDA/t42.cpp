@@ -2,8 +2,6 @@
 using namespace std;
 
 int main(){
-    const char *p1="Player1";
-    const char *p2="Player2";
     int N;
     cin >> N;
     int i;
